@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehan School - Curriculum</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: auto;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .curriculum {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .curriculum h1 {
+            text-align: center;
+            color: #1e3c72;
+            margin-bottom: 2rem;
+        }
+        .curriculum-section {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.5rem;
+        }
+        .curriculum-section h2 {
+            color: #2a5298;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .curriculum-section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Rehan School</div>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="curriculum.html">Curriculum</a>
+                <a href="facilitators.html">Facilitators</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section class="curriculum">
+        <h1>Our Innovative Curriculum</h1>
+        <div class="curriculum-section">
+            <h2>AI-Integrated Learning</h2>
+            <p>Our curriculum leverages AI to personalize learning paths, ensuring each student excels at their own pace.</p>
+        </div>
+        <div class="curriculum-section">
+            <h2>Soft Skills Development</h2>
+            <p>We emphasize communication, teamwork, and leadership to prepare students for real-world challenges.</p>
+        </div>
+        <div class="curriculum-section">
+            <h2>Entrepreneurial Training</h2>
+            <p>Students learn to innovate, pitch ideas, and develop business acumen through hands-on projects.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Rehan School. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
